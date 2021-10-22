@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body {
+    margin: 20px;
+    background-color: rgb(21, 21, 21);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 10px 5px 5px 10px;
+
+}
+/* The * is how you change the whole ass site background */
+
+#navbar {
+    background-color: rgb(34, 34, 34);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+}
+
+#navbar a {
+    color: whitesmoke;
+    background-color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#navbar a:hover {
+    color: skyblue;
+}
+
+
+#hurrah {
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+/* This is how we can target specific elements with CSS */
+
+h5 {
+    color:rgb(91, 235, 240);
+    font-size: 20px;
+    text-align: center;
+
+}
+#fuck {
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+.welcome {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+
+
+.column {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+#cities {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly
+}
+
+
+.about {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.roles {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    align-content: center;
+    text-align: justify;
+}
+
+#imageuno {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#imagedos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+/* Personalised classes changed from <p> or anything you have to put a . in front of it */
+
+
+
+/* End of Index */
+
+/* Start of How to Bard */
+
+
+.hecker {
+    display:inline;
+    margin-bottom: 10000000000px;
+}
+
+#wife {
+    width: 50%;
+    float: left;
+}
+
+.heck {
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.heckt {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    float: right;
+    width: 50%;
+    padding-right: 50px;
+}
+
+#fricker {
+    display: inline;
+    margin: auto;
+    padding-inline-start: 10px;
+}
+
+.frick {
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    width: 50%;
+}
+
+.frickt {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    width: 50%;
+    padding-top: 10px;
+    display: block;
+}
+
+#haha {
+    width: 20%;
+}
+
+#barding {
+    float: right;
+    width: 60%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.rotation {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    float: left;
+    
+}
+
+/* end of endthepain */
+/* start of alternatives */
+
+.alts {
+    text-align: center;
+    display: grid;
+}
+
+#tittles {
+    float: left;
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-right: 20px;
+}
+
+
+#tittle {
+    float: left;
+    color:rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 rgb(136, 0, 0), 1.5px -1.5px 0 rgb(136, 0, 0), -1.5px 1.5px 0 rgb(136, 0, 0), 1.5px 1.5px 0 rgb(136, 0, 0);
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    padding-right: 20px;
+}
+
+#mchtwo {
+    width: 8%;
+    float: left;
+}
+
+.mch {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#dnctwo {
+    width: 8%;
+    float: left;
+}
+
+.dnc {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#samtwo {
+    width: 8%;
+    float: left;
+}
+
+.sam {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#drgtwo {
+    width: 8%;
+    float: left;
+}
+
+.drg {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#nintwo {
+    width: 8%;
+    float: left;
+}
+
+.nin {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#mnktwo {
+    width: 8%;
+    float: left;
+}
+
+.mnk {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#rdmtwo {
+    width: 8%;
+    float: left;
+}
+
+.rdm {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#blmtwo {
+    width: 8%;
+    float: left;
+}
+
+.blm {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+#smntwo {
+    width: 8%;
+    float: left;
+}
+
+.smn {
+    color:rgb(255, 255, 255);
+    text-shadow: -0.4px -0.4px 0 rgb(91, 168, 240), 0.4px -0.4px 0 rgb(91, 168, 240), -0.4px 0.4px 0 rgb(91, 168, 240), 0.4px 0.4px 0 rgb(91, 168, 240);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
